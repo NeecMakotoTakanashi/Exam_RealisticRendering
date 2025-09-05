@@ -3,6 +3,20 @@
 	"EngineAssociation": "5.5",
 	"Category": "Samples",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "MoviePipelineMaskRenderPass",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraMRQ",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"MacNoEditor",
 		"WindowsNoEditor"
